@@ -10,12 +10,9 @@ class Program {
                       result[0] = array[i];
                       result[1] = array[j];
                       return result;
-                  }else{
-                    result = new int[]{};
-                    return result;
                   }
               }
         }
-    return result;
+    return new int[]{};
   }
 }
