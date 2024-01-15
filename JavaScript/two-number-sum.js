@@ -8,6 +8,7 @@ function twoNumberSum(array, targetSum) {
             }
         }
     }
+   return [];
 }
 
 // Do not edit the line below.
