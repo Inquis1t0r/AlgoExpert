@@ -1,16 +1,15 @@
 class Program {
   func twoNumberSum(_ array: inout [Int], _ targetSum: Int) -> [Int] {
     // Write your code here.
-        var result = [Int]()
+    var result = [Int]()
 
     for i in 0..<array.count - 1 {
-        for j in i + 1..<array.count {
-            if array[i] + array[j] == targetSum {
+          var valueToCheck = targetSum - array[i];
+          if (array.contains(valueToCheck) && valueToCheck != array[i]){
                 result.append(array[i])
-                result.append(array[j])
+                result.append(valueToCheck)
                 return result
             }
-        }
     }
     return []
   }
