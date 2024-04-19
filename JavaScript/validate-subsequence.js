@@ -1,18 +1,14 @@
 function isValidSubsequence(array, sequence) {
   // Write your code here.
-  let seqIndex = 0;
-  let subPointer = sequence[seqIndex];
+  let arrIdx = 0;
+  let seqIdx = 0;
 
-
-  for (let i = 0; i < array.length; i++) {
-    if(array[i] == subPointer){
-      seqIndex++;
-      console.log('match: ', array[i], subPointer);
+  while (arrIdx < array.length && seqIdx < sequence.length){
+    if(array[arrIdx] == sequence[seqIdx]){
+      seqIdx++;
     }
   }
-  console.log(seqIndex);
-  console.log(sequence.length);
-return seqIndex == sequence.length;
+  
 }
 
 // Do not edit the line below.
