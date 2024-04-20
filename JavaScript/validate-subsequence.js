@@ -7,8 +7,9 @@ function isValidSubsequence(array, sequence) {
     if(array[arrIdx] == sequence[seqIdx]){
       seqIdx++;
     }
+    arrIdx++;
   }
-  
+  return seqIdx == sequence.length;
 }
 
 // Do not edit the line below.
