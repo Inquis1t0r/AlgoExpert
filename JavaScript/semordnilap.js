@@ -1,5 +1,8 @@
 function semordnilap(words) {
   // Write your code here.
+  for(word in words){
+    console.log(word);
+  }
   return [];
 }
 
