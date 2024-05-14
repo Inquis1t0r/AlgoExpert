@@ -10,6 +10,7 @@ exports.LinkedList = LinkedList;
 
 function middleNode(linkedList) {
   // Write your code here.
+  //isNumberOfNodesEven 
   return null;
 }
 
