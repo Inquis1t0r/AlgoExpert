@@ -1,4 +1,4 @@
 # AlgoExpert
 TODO:
-- [ ] Table -> +split by language
+- [ ] Table -> +split by language + by difficulty 
 - [ ] Notion notes !!!
